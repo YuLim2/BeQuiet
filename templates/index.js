@@ -1,25 +1,57 @@
+
+
 function cssChange() {
     var x = document.getElementById("abc");
-   x.style.backgroundColor = "blue";
-   if(x.style.background === "blue"){
-       x.style.background = "white";
+    var returnvalue1 = prompt("학번을 입력하세요.");
+    alert(returnvalue1);
+    if(returnvalue1 == null){
+       x.style.backgroundColor = "#808080";
+    }
+   else {
+      x.style.backgroundColor = "#005FB2";
    }
-}
+}  
+
+
+
+
 
 
 function cssChange2() {
-   var x = document.getElementById("abc2");           
-   x.style.backgroundColor = "blue"; 
+   var x2 = document.getElementById("abc2");           
+   var returnvalue2 = prompt();
+    alert(returnvalue2);
+    if(returnvalue2 == null){
+       x2.style.backgroundColor = "#808080";
+    }
+   else {
+      x2.style.backgroundColor = "blue";
+   }
+   
 }
 
 function cssChange3() {
-   var x = document.getElementById("abc3");           
-   x.style.backgroundColor = "blue"; 
+   var x3 = document.getElementById("abc3");           
+   var returnvalue3 = prompt();
+    alert(returnvalue3);
+    if(returnvalue3 == null){
+       x3.style.backgroundColor = "#808080";
+    }
+   else {
+      x3.style.backgroundColor = "blue";
+   }
 }
 
 function cssChange4() {
-   var x = document.getElementById("abc4");           
-   x.style.backgroundColor = "blue"; 
+   var x4 = document.getElementById("abc4");           
+   var returnvalue4 = prompt();
+    alert(returnvalue4);
+    if(returnvalue4 == null){
+       x4.style.backgroundColor = "#808080";
+    }
+   else {
+      x4.style.backgroundColor = "blue";
+   }
 }
 
 function cssChange5() {
@@ -50,4 +82,16 @@ function cssChange10() {
 function cssChange11() {
    var x = document.getElementById("abc11");           
    x.style.backgroundColor = "blue"; 
+}
+
+function login() {
+    location.href = "file:///C:/Users/sw2102/Desktop/html/login.html"
+}
+
+function register() {
+
+}
+
+function gth() {
+    window.open('https://bssm.meistergo.co.kr/')
 }
