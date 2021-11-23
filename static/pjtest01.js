@@ -3,7 +3,7 @@
 function cssChange() {
     var x = document.getElementById("abc");
     var returnvalue1 = prompt("학번을 입력하세요.");
-    alert(returnvalue1);
+    alert(returnvalue1 + "자리입니다.");
     if(returnvalue1 == null){
        x.style.backgroundColor = "#808080";
     }
@@ -85,7 +85,7 @@ function cssChange11() {
 }
 
 function login() {
-    location.href = "file:///C:/Users/sw2102/Desktop/html/login.html"
+    location.href = "file:///C:/Users/sw2102/Desktop/vscode/html/login.html"
 }
 
 function register() {

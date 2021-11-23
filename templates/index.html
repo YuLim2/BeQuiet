@@ -22,31 +22,33 @@
       .box2 {margin : 220px;}
 
       .btn {border-radius: 5px;}
+
+      .ddd {border-radius: 4px; border : none;}
     </style>
 </head>
 <body>
 
     <button type="button" onclick="login()">로그인</button>
-    <button type="button" onclick="register()">회원가입</button>
+    <button type="button" onclick="register()" onclick="location.href="login.html">회원가입</button>
     <button type="button" onclick="gth()">벌점주러가기</button>
    <div class="box1">
-    <form action="/tableSelect" method="post">
-        <div id="abc"><button class="btn" type="button" onclick="cssChange()" >자리 선택</button></div> 
-        <div id="abc2"><button class="btn" type="button" onclick="cssChange2()" >자리 선택</button></div>
-        <div id="abc3"><button class="btn" type="button" onclick="cssChange3()" >자리 선택</button></div>
-        <div id="abc4"><button class="btn" type="button" onclick="cssChange4()" >자리 선택</button></div> 
-        <div id="abc5"><button class="btn" type="button" onclick="cssChange5()" >자리 선택</button></div>
+    <form action="/tableSelect1" method="post">
+        <div id="abc"><input type="text" class="ddd" name="1" placeholder="학번입력"></div> 
+        <div id="abc2"><input type="text" class="ddd" name="1" placeholder="학번입력"></div>
+        <div id="abc3"><input type="text" class="ddd" name="1" placeholder="학번입력"></div>
+        <div id="abc4"><input type="text" class="ddd" name="1" placeholder="학번입력"></div> 
+        <div id="abc5"><input type="text" class="ddd" name="1" placeholder="학번입력"></div>
     </form>
 
 </div>
 
 <div class="box2">
-    <form action="/tableSelect" method="post">
-        <div id="abc7"><button class="btn" type="button" onclick="cssChange7()" >자리 선택</button></div> 
-        <div id="abc8"><button class="btn" type="button" onclick="cssChange8()" >자리 선택</button></div>
-        <div id="abc9"><button class="btn" type="button" onclick="cssChange9()" >자리 선택</button></div>
-        <div id="abc10"><button class="btn" type="button" onclick="cssChange10()" >자리 선택</button></div> 
-        <div id="abc11"><button class="btn" type="button" onclick="cssChange11()" >자리 선택</button></div>
+    <form action="/tableSelect2" method="post">
+        <div id="abc7"><input type="text" class="ddd" name="1" placeholder="학번입력"></div> 
+        <div id="abc8"><input type="text" class="ddd" name="1" placeholder="학번입력"></div>
+        <div id="abc9"><input type="text" class="ddd" name="1" placeholder="학번입력"></div>
+        <div id="abc10"><input type="text" class="ddd" name="1" placeholder="학번입력"></div> 
+        <div id="abc11"><input type="text" class="ddd" name="1" placeholder="학번입력"></div>
     </form>
 </div>
 
